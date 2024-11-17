@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Primera parte*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    z-index: 999;
+    width: 100%;
+    height: 135px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:"DM Serif Display";
+}
+
+.iconos{
+    display: flex;
+}
+
+.iconos a{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.iconos a:hover{
+    color: #ffd000;
+}
+
+h1{
+    justify-content: center;
+    padding-top: 720px;
+    font-family: "Germania One";
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-shadow: rgb(255, 255, 255) 5px 3px 2px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.video-principal{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-video{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-video h1{
+    background-color: bisque;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    margin-top: 120px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 25px;
+}
+
+.boton i{
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+
+.button{
+    position: absolute;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    font-family:"DM Serif Display";
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: -92px;
+    box-shadow: 2px 5px 5px 2px white;
+
+}
+
+.button:hover{
+    background-color: rgb(243, 178, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*Segunda parte*/
+
+.segunda-parte{
+   background-color:rgba(245, 185, 63, 1);
+   margin-top: -80px;
+   padding-bottom: 40px;
+}
+
+.texto-uno h2{
+    padding-top: 120px;
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 80px;
+    width: 100%;
+    max-width: 1200px;
+    background-color:rgba(245, 185, 63, 1);
+    padding: 20px;
+    color: black;
+
+}
+
+.grid-elemento-uno img{
+    padding-left: 90px;
+    border-radius: 15px;
+    margin-left: 95px;
+    height: 550px;
+}
+
+
+.formulario{
+    font-size: 20px bold;
+    font-family: "DM Serif Display";
+    width: 100%;
+    max-width: 1200px;
+    padding-right:15px;
+    padding-left: 15px;
+    margin: auto;
+    background-color: rgb(247, 174, 114);
+    border-radius: 8px;
+}
+
+.formulario  form{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    padding-left: 80px;
+    border: 4px solid black;
+    font-size: 20px;
+    font-family:"DM Serif Display";
+}
+
+
+.input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    padding-left: 80px;
+    border: 4px solid black;
+    font-size: 20px;
+    font-family:"DM Serif Display";
+    height: 80%;
+}
+
+
+.input[type="text"]:focus{
+    width: 100%;
+    font-family:"DM Serif Display";
+    border: 4px solid black;
+    font-size: 20px;
+}
+
+.input[type="email"]{
+    width: 100%;
+    padding: 20px;
+    border: 4px solid rgb(0, 0, 0);
+    font-size: 17px;
+    font-family:"DM Serif Display";
+}
+
+
+/*Tercera parte*/
+
+
+.texto-uno h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Germania One";
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    margin-top: 50px; 
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.texto-uno p{
+    font-family: "DM Serif Display";
+    font-size: 18px;
+    text-align: center;
+}
+
+.terceraparte{
+    background-color: rgba(229, 147, 19, 1);
+    padding-bottom: 25px;
+}
+
+.terceraparte h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "Germania One";
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
+.terceraparte p{
+    text-align: center;
+    color: white;
+    font-family: "DM Serif Display";
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.mapa iframe{
+    padding-bottom: 40px;
+}
+
+.galeria{
+    background-color: rgba(65, 55, 56, 1);
+    text-align: center;
+}
+
+.galeria h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Germania One";
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
+.galeria p{
+    font-family: "DM Serif Display";
+    font-size: 18px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+/* Galería de fotos */
+
+.grid-contenedor-dos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 18%;
+    padding-bottom: 40px;
+}
+
+.cuadro img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cuadro p{
+    color: rgba(65, 55, 56, 1);
+}
+
+.cuadro1{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cuadro2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.cuadro3{
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+   
+}
+
+.cuadro4{
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cuadro5{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+}
+
+.cuadro6{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(252, 155, 78, 1);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+}
+
+.cuadro1 img{
+    filter: sepia(80%);
+}
+
+
+.cuadro2 img{
+    opacity: 0.7;
+    filter: grayscale(70%);
+}
+
+.cuadro3 img{
+    filter: hue-rotate(25deg);
+}
+
+.cuadro4 img{
+    filter: blur(-20px);
+}
+
+.cuadro5 img{
+    filter: sepia(35%);
+}
+
+.cuadro6 img{
+    filter: grayscale(85%);
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.grid-contenedor-tres{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 18%; 
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.grid-contenedor-tres p{
+    font-family:"DM Serif Display";
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.contacto i{
+    color: #ffd000;
+}
+
+.iconos-uno{
+    text-align: center;
+}
+
+.iconos-uno a{
+    color: #ffd000;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.iconos-uno a:hover{
+    color: white;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.info-uno{
+    text-align: center;
+}
+
+.info-dos{
+    text-align: center;
+}
+
+.docente{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
